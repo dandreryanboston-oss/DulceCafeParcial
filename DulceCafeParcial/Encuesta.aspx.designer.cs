@@ -52,5 +52,7 @@ namespace DulceCafeParcial
         protected global::System.Web.UI.WebControls.Button btnBack;
 
         protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        protected global::System.Web.UI.WebControls.LinkButton lnkLogout;
     }
 }

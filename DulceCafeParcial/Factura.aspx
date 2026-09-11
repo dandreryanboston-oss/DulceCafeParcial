@@ -45,7 +45,10 @@
                         <div class="note">Complete los datos del cliente y del producto para generar la factura.</div>
                     </div>
                 </div>
-                <asp:Label ID="lblCalcMessage" runat="server" CssClass="note" />
+                <div style="display:flex;align-items:center;gap:12px">
+                    <asp:Label ID="lblCalcMessage" runat="server" CssClass="note" />
+                    <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" CssClass="btn btn-ghost">Cerrar sesión</asp:LinkButton>
+                </div>
             </div>
 
             <div class="grid">

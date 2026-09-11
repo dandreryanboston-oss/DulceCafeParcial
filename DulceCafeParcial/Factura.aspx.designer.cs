@@ -76,6 +76,8 @@ namespace DulceCafeParcial
         protected global::System.Web.UI.WebControls.Button btnAddToCart;
         protected global::System.Web.UI.WebControls.DropDownList ddlCurrency;
 
+        protected global::System.Web.UI.WebControls.LinkButton lnkLogout;
+
         protected global::System.Web.UI.WebControls.GridView gvCart;
 
         protected global::System.Web.UI.WebControls.Button btnCalculate;

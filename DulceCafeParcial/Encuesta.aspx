@@ -38,6 +38,9 @@
                         <h2>Encuesta de satisfacción</h2>
                         <p class="lead">Agradecemos su tiempo. Sus respuestas nos ayudan a mejorar.</p>
                     </div>
+                    <div style="margin-left:auto">
+                        <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" CssClass="btn btn-ghost">Cerrar sesión</asp:LinkButton>
+                    </div>
                 </div>
 
                 <div class="question">

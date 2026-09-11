@@ -240,5 +240,13 @@ namespace DulceCafeParcial
         {
             Response.Redirect("Encuesta.aspx", false);
         }
+
+        protected void lnkLogout_Click(object sender, EventArgs e)
+        {
+            // Clear session and redirect to login
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Index.aspx", false);
+        }
     }
 }

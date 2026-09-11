@@ -54,5 +54,12 @@ namespace DulceCafeParcial
         {
             Response.Redirect("Factura.aspx", false);
         }
+
+        protected void lnkLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Index.aspx", false);
+        }
     }
 }
